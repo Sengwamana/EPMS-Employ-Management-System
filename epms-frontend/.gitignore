@@ -7,8 +7,7 @@ node_modules/
 /.vite/
 
 # Production build
-/dist/
-/build/
+
 
 # Environment
 .env
