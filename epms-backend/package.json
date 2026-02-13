@@ -1,0 +1,29 @@
+{
+  "name": "emps-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "init-db": "node scripts/initDb.js",
+    "migrate": "node scripts/migrate.js",
+    "reset-db": "node scripts/resetDb.js",
+    "ensure-columns": "node scripts/ensureColumns.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.16.3",
+    "nodemon": "^3.1.11"
+  }
+}

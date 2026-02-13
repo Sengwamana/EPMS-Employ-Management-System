@@ -1,0 +1,72 @@
+## .gitignore for emps-backend
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.*
+
+# Build / runtime
+/dist/
+/build/
+npm-debug.log*
+
+# Coverage
+/coverage/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Database files
+*.sqlite
+database.sqlite
+
+# Process manager
+pids/
+*.pid
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+*.tgz
+*.bak
+*.swp
+
+# If you use nodemon
+nodemon.json
+
+# Ensure local node_modules are ignored
+/node_modules/# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
